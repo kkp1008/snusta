@@ -2,12 +2,16 @@
 <!-----profile header------>
 <div>
   <div class="row">
-    <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2"><%=image_tag '4.jpg', style: 'border-radius:70%; width: 100%' %></div>
+    <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+      <%=image_tag @user.profile_img, style: 'border-radius:70%; width: 100%' %>
 
+    </div>
 
     <div class="col-sm-8 col-lg-8 col-md-8 col-xs-6 profile-text">
-      <a><%=@user.name%>의 강아지 모카</a>
+      <a><%=@user.name%>프로필</a>
+
       <%= link_to '프로필 편집', edit_user_path(@user), class: "btn btn_default"%>
+
       <div class="col-sm-8 col-lg-8 col-md-8 col-xs-6 profile-text">
     <span class="profile-text">
       게시물 <%= @user.posts.size %>
@@ -27,10 +31,14 @@
 
 <!-----profile body------>
 
-<div>
+<div class="profile-body">
   <div class="row">
-    <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 profile_grid"><%=image_tag '1.jpg', style: 'width: 100%' %></div>
-    <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 profile_grid"><%=image_tag '2.jpg', style: 'width: 100%' %></div>
-    <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 profile_grid"><%=image_tag '3.jpg', style: 'width: 100%' %></div>
+
+    <% @posts.each do |post| %>
+      <div class ="col-lg-4 col-md-4 col-sm-4 col-xs-4" style="padding-top: 3%">
+        <%= image_tag post.img_path, style: 'width:100%'%>
+      </div>
+    <% end %>
+
   </div>
 </div>

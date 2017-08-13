@@ -2,7 +2,7 @@ class ProfilesController < ApplicationController
 
   before_action :set_user
   def show
-    # render json: @user.to_json
+    @posts = @user.posts
 
   end
 
@@ -16,6 +16,7 @@ class ProfilesController < ApplicationController
   end
 
   private
+
   def set_user
     @user = User.find_by(name: params[:name])
   end
