@@ -1,11 +1,11 @@
 class PostsController < ApplicationController
   skip_before_action :require_login, only: [:new, :create]
-  before_action :set_post, only: [:show, :edit, :update, :destroy, :like]
+  before_action :set_post, only: [:show, :edit, :update, :destroy, :like, :comment]
 
   # GET /posts
   # GET /posts.json
   def index
-    @posts = Post.all
+    @posts = Post.all.order('id desc')
   end
 
   # GET /posts/1
@@ -66,11 +66,15 @@ class PostsController < ApplicationController
 
   def like
     @post.like_toggle(current_user)
-    redirect_back_or_to post_path(@post)
+    # redirect_back_or_to post_path(@post)
+    render partial:'like.js', layout:false, locals:{post: @post}
   end
 
   def comment
-
+    contents = params[:comment]
+    @post.add_comment current_user, contents
+    # redirect_back_or_to post_path(@post)
+    render partial:'comment.js', layout:false, locals:{post: @post}
   end
 
   private

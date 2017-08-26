@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
   skip_before_action :verify_authenticity_token #postman 테스트시 csef_token 인증제거
   skip_before_action :require_login, only: [:index, :new, :create]
-  before_action :set_user, only: [:show, :edit, :update, :destroy]
+  before_action :set_user, only: [:show, :edit, :update, :destroy, :follow]
 
   # GET /users
   # GET /users.json
@@ -76,6 +76,13 @@ class UsersController < ApplicationController
     end
   end
 
+  def follow
+    current_user.follow_toggle(@user)
+    redirect_back_or_to profile_path(@user.name)
+  end
+end
+
+
   private
   # Use callbacks to share common setup or constraints between actions.
   def set_user
@@ -86,4 +93,4 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit(:email, :name, :password, :profile_img)
   end
-end
+
