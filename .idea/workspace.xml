@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15790b1d-286c-4e46-9164-ca5b59b41cbd" name="Default" comment="like 버튼을 만들어서 준비₩">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20170826025308_add_to_img_path_to_post.rb" />
+    <list default="true" id="15790b1d-286c-4e46-9164-ca5b59b41cbd" name="Default" comment="완료">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/post/KakaoTalk_Photo_2017-07-22-19-55-49-9.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/user/KakaoTalk_Photo_2017-07-22-19-55-49-14.jpeg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/profiles_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/profiles_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20170722022756_sorcery_core.rb" afterPath="$PROJECT_DIR$/db/migrate/20170722022756_sorcery_core.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -22,6 +21,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/grazia_rails@db_drop__grazia_rails.coverage" NAME="db:drop: grazia-rails Coverage Results" MODIFIED="1503716559212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="grazia-rails" />
+    <SUITE FILE_PATH="coverage/grazia_rails@Production__snusta.coverage" NAME="Production: snusta Coverage Results" MODIFIED="1503718488297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="grazia-rails" />
     <SUITE FILE_PATH="coverage/grazia_rails@db__dump__grazia_rails.coverage" NAME="db:_dump: grazia-rails Coverage Results" MODIFIED="1503194689455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="grazia-rails" />
     <SUITE FILE_PATH="coverage/grazia_rails@db_schema_dump__grazia_rails.coverage" NAME="db:schema:dump: grazia-rails Coverage Results" MODIFIED="1503715073476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="grazia-rails" />
     <SUITE FILE_PATH="coverage/grazia_rails@db_migrate__grazia_rails.coverage" NAME="db:migrate: grazia-rails Coverage Results" MODIFIED="1503716570509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="grazia-rails" />
@@ -33,18 +33,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_post.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/posts/_post.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="28" column="70" lean-forward="true" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_footer.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,11 +63,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profiles_controller.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="profiles_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/profiles_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parser.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/script/parser.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="266" column="12" lean-forward="false" selection-start-line="266" selection-start-column="12" selection-end-line="266" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -122,16 +130,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_header.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -196,7 +194,6 @@
       <list>
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/db/migrate/20170730013854_add_name_to_user.rb" />
         <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
         <option value="$PROJECT_DIR$/log/development.log" />
@@ -245,6 +242,7 @@
         <option value="$PROJECT_DIR$/db/migrate/20170826025308_add_to_img_path_to_post.rb" />
         <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/profiles_controller.rb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
       </list>
     </option>
   </component>
@@ -511,7 +509,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="ㅔㄱㅐ&#9;FILE&#9;file:///Users/hajeongkim/RubymineProjects/snusta-hj/app/controllers/profiles_controller.rb&#10;follow_&#9;null&#9;null&#10;route&#9;FILE&#9;file:///Users/hajeongkim/RubymineProjects/snusta-hj/config/routes.rb&#10;users&#9;FILE&#9;file:///Users/hajeongkim/RubymineProjects/snusta-hj/app/controllers/users_controller.rb&#10;post&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/post.rb&#10;rout&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/routes.rb&#10;rou&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/routes.rb&#10;footer&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/views/layouts/_footer.html.erb&#10;users_controller&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/users_controller.rb&#10;userscontro&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/users_controller.rb&#10;model.name&#9;null&#9;null&#10;img_upl&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/img_uploader.rb&#10;user.rb&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/user.rb&#10;form&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/views/users/_form.html.erb&#10;addprofile&#9;null&#9;null&#10;image_tag&#9;null&#9;null&#10;post.rb&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/posts_controller.rb&#10;profile-te&#9;null&#9;null&#10;rootpath&#9;null&#9;null&#10;root_path&#9;null&#9;null&#10;database&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/database.yml" />
+    <property name="SearchEverywhereHistoryKey" value="database.&#9;FILE&#9;file:///Users/hajeongkim/RubymineProjects/snusta-hj/config/database.yml&#10;production&#9;null&#9;null&#10;ㅔㄱㅐ&#9;FILE&#9;file:///Users/hajeongkim/RubymineProjects/snusta-hj/app/controllers/profiles_controller.rb&#10;follow_&#9;null&#9;null&#10;route&#9;FILE&#9;file:///Users/hajeongkim/RubymineProjects/snusta-hj/config/routes.rb&#10;users&#9;FILE&#9;file:///Users/hajeongkim/RubymineProjects/snusta-hj/app/controllers/users_controller.rb&#10;post&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/post.rb&#10;rout&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/routes.rb&#10;rou&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/routes.rb&#10;footer&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/views/layouts/_footer.html.erb&#10;users_controller&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/users_controller.rb&#10;userscontro&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/users_controller.rb&#10;model.name&#9;null&#9;null&#10;img_upl&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/img_uploader.rb&#10;user.rb&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/user.rb&#10;form&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/views/users/_form.html.erb&#10;addprofile&#9;null&#9;null&#10;image_tag&#9;null&#9;null&#10;post.rb&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/posts_controller.rb&#10;profile-te&#9;null&#9;null&#10;rootpath&#9;null&#9;null&#10;root_path&#9;null&#9;null&#10;database&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/database.yml" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="FullScreen" value="true" />
@@ -539,7 +537,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rake.db:migrate: grazia-rails">
+  <component name="RunManager" selected="Rails.Production: snusta">
     <configuration default="false" name="db:_dump: grazia-rails" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="grazia-rails" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -1004,7 +1002,7 @@
       <workItem from="1502587693939" duration="8803000" />
       <workItem from="1502694734595" duration="2098000" />
       <workItem from="1503106603484" duration="8001000" />
-      <workItem from="1503193670159" duration="14117000" />
+      <workItem from="1503193670159" duration="14460000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1501906337170</created>
@@ -1132,11 +1130,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503113670357</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="완료">
+      <created>1503716597329</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1503716597329</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87069000" />
+    <option name="totallyTimeSpent" value="87412000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1162,7 +1167,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4085487" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1544236" sideWeight="0.50803214" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39960238" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1197,7 +1202,8 @@
     <MESSAGE value="post show를 partial로 만들어서 재활용이 가능한 구조로 만듦" />
     <MESSAGE value="like comments model create" />
     <MESSAGE value="like 버튼을 만들어서 준비" />
-    <option name="LAST_COMMIT_MESSAGE" value="like 버튼을 만들어서 준비" />
+    <MESSAGE value="완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1206,20 +1212,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/carrierwave-1.1.0/lib/carrierwave/uploader/extension_whitelist.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/carrierwave-1.1.0/lib/carrierwave/orm/activerecord.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/actionview-5.1.2/lib/action_view/helpers/asset_tag_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -1601,6 +1593,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/script/parser.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="266" column="12" lean-forward="false" selection-start-line="266" selection-start-column="12" selection-end-line="266" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
           <folding />
         </state>
       </provider>
